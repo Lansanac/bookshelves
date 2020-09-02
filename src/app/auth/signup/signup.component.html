@@ -10,8 +10,8 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" class="form-control" formControlName="password">
             </div>
-            <button class="btn btn-primary" type="submit" [disabled]="signupForm.Invalid">Crée un compte</button>
+            <button class="btn btn-primary" type="submit" [disabled]="signupForm.invalid">Crée un compte</button>
         </form>
-        <p class="text-dange">{{ errorMessage }}</p>
+        <p class="text-danger">{{ errorMessage }}</p>
     </div>
 </div>

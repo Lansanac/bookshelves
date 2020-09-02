@@ -23,7 +23,7 @@ export class AuthService {
     );
   }
 
-  signinUser(email: string, password: string){
+  signInUser(email: string, password: string){
     return new Promise(
       (resolve, reject) => {
         firebase.auth().signInWithEmailAndPassword(email, password).then(
